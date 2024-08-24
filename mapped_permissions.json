@@ -1,0 +1,140 @@
+{
+   "pflegeheim_1": [
+      {
+         "external_role": "Pflegefachkraft",
+         "internal_level": 6,
+         "role_found_w_partial_search": false
+      },
+      {
+         "external_role": "Test Pflegeassistenzkraft in Test",
+         "internal_level": 4,
+         "role_found_w_partial_search": true
+      },
+      {
+         "external_role": "Pflegehilfskraft",
+         "internal_level": 3,
+         "role_found_w_partial_search": false
+      },
+      {
+         "external_role": "Betreuungskraft",
+         "internal_level": 2,
+         "role_found_w_partial_search": false
+      },
+      {
+         "external_role": null,
+         "internal_level": 0,
+         "role_found_w_partial_search": false
+      },
+      {
+         "external_role": "PDL",
+         "internal_level": 6,
+         "role_found_w_partial_search": false
+      },
+      {
+         "external_role": "Azubi 3. Lehrjahr",
+         "internal_level": 4,
+         "role_found_w_partial_search": false
+      }
+   ],
+   "pflegeheim_2": [
+      {
+         "external_role": "PFK",
+         "internal_level": 6,
+         "role_found_w_partial_search": false
+      },
+      {
+         "external_role": "Pflegedienstleitung",
+         "internal_level": 6,
+         "role_found_w_partial_search": false
+      },
+      {
+         "external_role": "Wohnbereichsleitung",
+         "internal_level": 6,
+         "role_found_w_partial_search": false
+      },
+      {
+         "external_role": "Auszubildende",
+         "internal_level": 3,
+         "role_found_w_partial_search": false
+      },
+      {
+         "external_role": null,
+         "internal_level": 0,
+         "role_found_w_partial_search": false
+      },
+      {
+         "external_role": "Sozialer Dienst",
+         "internal_level": 2,
+         "role_found_w_partial_search": false
+      },
+      {
+         "external_role": "Verwaltungskraft",
+         "internal_level": 0,
+         "role_found_w_partial_search": false
+      }
+   ],
+   "pflegeheim_3": [
+      {
+         "external_role": "Test Pflegefachkraft Test",
+         "internal_level": 6,
+         "role_found_w_partial_search": true,
+         "additional_info": {
+            "zusatzqualifikationen": [
+               "Wundmanagement",
+               "Palliative Care"
+            ],
+            "funktion": "Stationsleitung",
+            "rolle": "Pflegefachkraft",
+            "berechtigungen": {
+               "medikamentengabe": true,
+               "wunddokumentation": true,
+               "vitalzeichenmessung": true
+            },
+            "wundmanagement": {
+               "dokumentation": true,
+               "behandlung": true
+            }
+         }
+      },
+      {
+         "external_role": "Pflegeassistent",
+         "internal_level": 0,
+         "role_found_w_partial_search": false,
+         "additional_info": {
+            "zusatzqualifikationen": [],
+            "funktion": "Pflegeassistent",
+            "rolle": "Pflegeassistent",
+            "berechtigungen": {
+               "medikamentengabe": false,
+               "wunddokumentation": false,
+               "vitalzeichenmessung": true
+            },
+            "wundmanagement": {
+               "dokumentation": false,
+               "behandlung": false
+            }
+         }
+      },
+      {
+         "external_role": "Pflegefachkraft",
+         "internal_level": 6,
+         "role_found_w_partial_search": false,
+         "additional_info": {
+            "zusatzqualifikationen": [
+               "Gerontopsychiatrie"
+            ],
+            "funktion": "Wohnbereichsleitung",
+            "rolle": "Wohnbereichsleitung",
+            "berechtigungen": {
+               "medikamentengabe": true,
+               "wunddokumentation": true,
+               "vitalzeichenmessung": true
+            },
+            "wundmanagement": {
+               "dokumentation": true,
+               "behandlung": true
+            }
+         }
+      }
+   ]
+}

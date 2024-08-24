@@ -1,0 +1,67 @@
+{
+  "pflegeheim_1": [
+    {"bezeichnung": "Pflegefachkraft"},
+    {"bezeichnung": "Test Pflegeassistenzkraft in Test"},
+    {"bezeichnung": "Pflegehilfskraft"},
+    {"bezeichnung": "Betreuungskraft"},
+    {"bezeichnung": null},
+    {"bezeichnung": "PDL"},
+    {"bezeichnung": "Azubi 3. Lehrjahr"}
+  ],
+  "pflegeheim_2": [
+    {"bezeichnung": "PFK"},
+    {"bezeichnung": "Pflegedienstleitung"},
+    {"bezeichnung": "Wohnbereichsleitung"},
+    {"bezeichnung": "Auszubildende"},
+    {"bezeichnung": null},
+    {"bezeichnung": "Sozialer Dienst"},
+    {"bezeichnung": "Verwaltungskraft"}
+  ],
+  "pflegeheim_3": [
+    {
+      "qualifikation": "Test Pflegefachkraft Test",
+      "zusatzqualifikationen": ["Wundmanagement", "Palliative Care"],
+      "funktion": "Stationsleitung",
+      "rolle": "Pflegefachkraft",
+      "berechtigungen": {
+        "medikamentengabe": true,
+        "wunddokumentation": true,
+        "vitalzeichenmessung": true
+      },
+      "wundmanagement": {
+        "dokumentation": true,
+        "behandlung": true
+      }
+    },
+    {
+      "qualifikation": "Pflegeassistent",
+      "zusatzqualifikationen": [],
+      "funktion": "Pflegeassistent",
+      "rolle": "Pflegeassistent",
+      "berechtigungen": {
+        "medikamentengabe": false,
+        "wunddokumentation": false,
+        "vitalzeichenmessung": true
+      },
+      "wundmanagement": {
+        "dokumentation": false,
+        "behandlung": false
+      }
+    },
+    {
+      "qualifikation": "Pflegefachkraft",
+      "zusatzqualifikationen": ["Gerontopsychiatrie"],
+      "funktion": "Wohnbereichsleitung",
+      "rolle": "Wohnbereichsleitung",
+      "berechtigungen": {
+        "medikamentengabe": true,
+        "wunddokumentation": true,
+        "vitalzeichenmessung": true
+      },
+      "wundmanagement": {
+        "dokumentation": true,
+        "behandlung": true
+      }
+    }
+  ]
+}
